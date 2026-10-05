@@ -1,0 +1,6 @@
+# Netlify: publish only the generated site. The site is built locally with
+#   python src/build.py
+# and v2/ is uploaded as-is (no build step on Netlify: Pillow is not installed there).
+# Drag-and-drop deploy: drag the v2 folder itself, not the project folder.
+[build]
+  publish = "v2"

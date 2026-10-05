@@ -1,0 +1,6 @@
+{
+  "name": "dvadruga-site-tests",
+  "private": true,
+  "scripts": { "test": "node site-test.js" },
+  "devDependencies": { "puppeteer-core": "^23.0.0" }
+}
